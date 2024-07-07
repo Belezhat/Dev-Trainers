@@ -1,0 +1,118 @@
+/* public/css/styles.css */
+
+/* Styles généraux */
+body {
+    background-color: #2b2b2b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #00bcd4;
+}
+
+/* Card */
+.card {
+    background-color: #3b3b3b;
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-subtitle {
+    color: #cccccc;
+}
+
+.card-text {
+    color: #b8b8b8;
+}
+
+.card-footer {
+    background-color: #4b4b4b;
+    text-align: center;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+}
+
+form button.btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3b3b3b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
